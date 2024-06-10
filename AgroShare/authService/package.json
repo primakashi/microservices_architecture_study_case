@@ -1,0 +1,24 @@
+{
+  "name": "auth-services",
+  "version": "1.0.0",
+  "description": "Handles Registration and Login of Users",
+  "main": "authservice.js",
+  "author": "Gibril Issaka Idrisu",
+  "license": "MIT",
+  "scripts": {
+    "start": "node backend/authservice.js",
+    "dev": "nodemon backend/authservice.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

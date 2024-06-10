@@ -1,0 +1,30 @@
+{
+	"title": "Cart — BOOKVA",
+	"shopping_cart": "Shopping cart",
+
+	"empty": "is empty",
+	"suggestion": "Browse products on the",
+	"main_page": "main page",
+	"use_catalog_search": ", use the catalog or search",
+	"books": "Books",
+	"books_suggestion": "To be smart we all need to be friends with books!",
+	"stationery": "Stationery",
+	"stationery_suggestion": "Stationery from publishers and writers!",
+
+	"quantity": "Qty",
+	"remove": "Remove",
+	"total": "Total",
+	"checkout": "Checkout",
+	"or": "or",
+	"continue_shopping": "Continue Shopping",
+
+	"test_card_details": "Test card details:",
+	"date": "Date:",
+	"date_descr": "Any future date",
+	"cvc_descr": "Any 3 digits",
+
+	"modal_header": "Are you sure you want to remove this item?",
+	"modal_body": "If not, click 'Cancel'. You can save your cart for later or add this item to wish list.",
+	"modal_left_button": "Cancel",
+	"modal_right_button": "Remove item"
+}

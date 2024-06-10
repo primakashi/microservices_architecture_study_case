@@ -1,0 +1,12 @@
+{
+	"title": "Welcome! | BOOKVA",
+	"header": "Sign up",
+	"email": "E-mail",
+	"password": "Password",
+	"register": "Create an account",
+	"login": "Log in",
+	"already_have_an_account": "Already have an account?",
+	"remember_me": "Remember me",
+	"passError": "Password must be between 4 and 20 characters",
+	"emailError": "Email must be valid"
+}

@@ -1,0 +1,13 @@
+{
+	"title": "订单详情 — BOOKVA",
+	"header": "支付成功",
+	"body": "感谢您的购买",
+	"footer": "您的订单正在处理中。 我们会尽快向您发送确认信息！",
+	"orderId": "订单编号",
+	"quantity": "数量",
+	"total": "总和",
+	"payment_info": "支付信息",
+	"ending_with": "结束在",
+	"expires": "到期",
+	"continue_shopping": "继续购买"
+}

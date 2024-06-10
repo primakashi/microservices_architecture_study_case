@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: teachers-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: teachers
+  template:
+    metadata:
+      labels:
+        component: teachers
+    spec:
+      containers:
+        - name: teachers
+          image: udeshyagiri/classroom-teachers
+          ports:
+            - containerPort: 8001
+          env:
+            - name: PGUSER
+              value: postgres
+            - name: PGHOST
+              value: postgres-teachers-cluster-ip-service
+            - name: PGPORT
+              value: '5432'
+            - name: PGDATABASE
+              value: postgres
+            - name: PGPASSWORD
+              value: password

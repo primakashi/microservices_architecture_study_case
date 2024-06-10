@@ -1,0 +1,10 @@
+{
+	"title": "Payment details — BOOKVA",
+	"header": "Payment failed",
+	"body": "Order canceled",
+	"footer": "Sorry, your order has been canceled. If you feel this is an error, please contact our support team.",
+	"orderId": "Order ID",
+	"quantity": "Qty",
+	"total": "Total",
+	"continue_shopping": "Continue Shopping"
+}

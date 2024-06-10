@@ -1,0 +1,12 @@
+{
+	"books": "书籍",
+	"stationery": "文具",
+	"login": "登录",
+	"register": "创建账户",
+
+	"account": "账户",
+	"cart": "购物篮",
+	"orders": "订单",
+	"settings": "设置",
+	"logout": "退出"
+}

@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres-teachers-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: postgres-teachers
+  template:
+    metadata:
+      labels:
+        component: postgres-teachers
+    spec:
+      containers:
+        - name: postgres-teachers
+          image: postgres
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_PASSWORD
+              value: password

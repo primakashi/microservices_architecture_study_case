@@ -1,0 +1,50 @@
+apiVersion: skaffold/v2beta29
+kind: Config
+deploy:
+  kubectl:
+    manifests:
+      - ./infra/k8s/*.yaml
+build:
+  googleCloudBuild:
+    projectId: ticketing-dev-367104
+  artifacts:
+    - image: us.gcr.io/ticketing-dev-367104/auth-alpha
+      context: auth-alpha
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "src/**/*.ts"
+    - image: us.gcr.io/ticketing-dev-367104/services-alpha
+      context: services-alpha
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "src/**/*.ts"
+    - image: us.gcr.io/ticketing-dev-367104/booking-alpha
+      context: booking-alpha
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "src/**/*.ts"
+    - image: us.gcr.io/ticketing-dev-367104/expiration-alpha
+      context: expiration-alpha
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "src/**/*.ts"
+    - image: us.gcr.io/ticketing-dev-367104/payments-alpha
+      context: payments-alpha
+      docker:
+        dockerfile: Dockerfile
+      sync:
+        manual:
+          - dest: .
+            src: "src/**/*.ts"

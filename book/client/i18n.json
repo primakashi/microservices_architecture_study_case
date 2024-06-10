@@ -1,0 +1,18 @@
+{
+	"locales": ["en", "ru", "zh"],
+	"defaultLocale": "ru",
+	"pages": {
+		"*": ["common", "header"],
+		"/": ["home"],
+		"/auth/login": ["login"],
+		"/auth/register": ["register"],
+		"/books": ["books"],
+		"/books/[bookId]": ["bookid"],
+		"/stationery": ["stationery"],
+		"/stationery/[stationeryId]": ["stationeryid"],
+		"/cart": ["cart"],
+		"/orders": ["orders"],
+		"/checkout/success": ["success"],
+		"/checkout/cancel": ["cancel"]
+	}
+}

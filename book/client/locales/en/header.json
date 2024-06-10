@@ -1,0 +1,12 @@
+{
+	"books": "Books",
+	"stationery": "Stationery",
+	"login": "Login",
+	"register": "Create account",
+
+	"account": "Account",
+	"cart": "Cart",
+	"orders": "Orders",
+	"settings": "Settings",
+	"logout": "Logout"
+}

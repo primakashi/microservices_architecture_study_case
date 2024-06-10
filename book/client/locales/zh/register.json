@@ -1,0 +1,12 @@
+{
+	"title": "欢迎! | BOOKVA",
+	"header": "注册",
+	"email": "邮箱",
+	"password": "密码",
+	"register": "创建账户",
+	"login": "登录",
+	"already_have_an_account": "已经有一个帐户？",
+	"remember_me": "保存账号和密码",
+	"passError": "密码必须在 4 到 20 个字符之间",
+	"emailError": "请输入有效的电子邮件地址"
+}

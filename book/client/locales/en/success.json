@@ -1,0 +1,13 @@
+{
+	"title": "Payment details — BOOKVA",
+	"header": "Payment successful",
+	"body": "Thanks for ordering",
+	"footer": "We appreciate your order, we're currently processing it. So hang tight and we'll send you confirmation very soon!",
+	"orderId": "Order ID",
+	"quantity": "Qty",
+	"total": "Total",
+	"payment_info": "Payment Information",
+	"ending_with": "Ending with",
+	"expires": "Expires",
+	"continue_shopping": "Continue Shopping"
+}
