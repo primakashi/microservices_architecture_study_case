@@ -1,0 +1,17 @@
+{
+	"title": "订单记录 — BOOKVA",
+	"order_history": "订单记录",
+	"no_orders": "您还没有进行任何购买",
+	"suggestion": "查看",
+	"main_page": "主页",
+	"use_catalog_search": "上的优惠，使用目录或搜索",
+
+	"orderId": "订单编号 ",
+	"date_placed": "日期",
+	"amount_total": "总金额",
+	"view_invoice": "电子支票",
+	"quantity": "数量",
+	"paid": "已支付",
+	"canceled": "返回",
+	"view_product": "查看产品"
+}

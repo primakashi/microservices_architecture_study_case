@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: postgres-auth-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: postgres-auth
+  template:
+    metadata:
+      labels:
+        component: postgres-auth
+    spec:
+      containers:
+        - name: postgres-auth
+          image: postgres
+          ports:
+            - containerPort: 5432
+          env:
+            - name: POSTGRES_PASSWORD
+              value: password

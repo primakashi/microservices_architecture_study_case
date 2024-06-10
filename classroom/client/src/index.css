@@ -1,0 +1,7 @@
+div.single-comment {
+  border: 1px solid lightgray;
+}
+
+i.close-button {
+  cursor: pointer;
+}

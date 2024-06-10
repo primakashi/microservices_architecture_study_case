@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: students-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: students
+  template:
+    metadata:
+      labels:
+        component: students
+    spec:
+      containers:
+        - name: students
+          image: udeshyagiri/classroom-students
+          ports:
+            - containerPort: 8002
+          env:
+            - name: PGUSER
+              value: postgres
+            - name: PGHOST
+              value: postgres-students-cluster-ip-service
+            - name: PGPORT
+              value: '5432'
+            - name: PGDATABASE
+              value: postgres
+            - name: PGPASSWORD
+              value: password

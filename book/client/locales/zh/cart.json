@@ -1,0 +1,30 @@
+{
+	"title": "购物篮 — BOOKVA",
+	"shopping_cart": "购物篮是",
+
+	"empty": "空的",
+	"suggestion": "查看",
+	"main_page": "主页",
+	"use_catalog_search": "上的优惠, 使用目录或搜索",
+	"books": "书籍",
+	"books_suggestion": "要变得更聪明，我们需要和书本做朋友！",
+	"stationery": "文具",
+	"stationery_suggestion": "来自出版商和作家的文具！",
+
+	"quantity": "数量",
+	"remove": "删除",
+	"total": "总和",
+	"checkout": "付款",
+	"or": "或者",
+	"continue_shopping": "继续购物",
+
+	"test_card_details": "测试卡:",
+	"date": "日期:",
+	"date_descr": "截止日期",
+	"cvc_descr": "任意三位数字",
+
+	"modal_header": "您确定要移除该商品吗？",
+	"modal_body": "如果不是，请单击取消.您可以保存您的购物车以备后用或将此产品添加到您的收藏夹。",
+	"modal_left_button": "取消",
+	"modal_right_button": "移除商品"
+}

@@ -1,0 +1,10 @@
+{
+	"title": "订单详情 — BOOKVA",
+	"header": "付款失败",
+	"body": "取消订单",
+	"footer": "您的订单已被取消。如果您认为这是一个错误，请联系我们的支持团队。",
+	"orderId": "订单编号",
+	"quantity": "数量",
+	"total": "总和",
+	"continue_shopping": "继续购买"
+}

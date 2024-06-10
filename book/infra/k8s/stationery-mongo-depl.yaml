@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stationery-mongo-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stationery-mongo
+  template:
+    metadata:
+      labels:
+        app: stationery-mongo
+    spec:
+      containers:
+        - name: stationery-mongo
+          image: mongo
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: stationery-mongo-srv
+spec:
+  selector:
+    app: stationery-mongo
+  ports:
+    - name: db
+      protocol: TCP
+      port: 27017
+      targetPort: 27017

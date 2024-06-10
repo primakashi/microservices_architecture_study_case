@@ -1,0 +1,13 @@
+{
+	"title": "登录 | BOOKVA",
+	"header": "授权",
+	"email": "邮箱",
+	"password": "密码",
+	"login": "登录",
+	"register": "注册",
+	"remember_me": "保存账号和密码",
+	"forgot_password": "忘记密码?",
+	"do_not_have_an_account": "没有账户?",
+	"passError": "密码必须在 4 到 20 个字符之间",
+	"emailError": "请输入有效的电子邮件地址"
+}

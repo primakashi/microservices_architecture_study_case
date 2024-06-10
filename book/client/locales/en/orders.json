@@ -1,0 +1,17 @@
+{
+	"title": "Order history — BOOKVA",
+	"order_history": "Order history",
+	"no_orders": "You haven't made any purchases yet",
+	"suggestion": "Browse products on the",
+	"main_page": "main page",
+	"use_catalog_search": ", use the catalog or search",
+
+	"orderId": "Order number ",
+	"date_placed": "Date placed",
+	"amount_total": "Total amount",
+	"view_invoice": "View invoice",
+	"quantity": "Qty",
+	"paid": "Paid",
+	"canceled": "Canceled",
+	"view_product": "View product"
+}

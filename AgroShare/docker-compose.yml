@@ -1,0 +1,47 @@
+version: '3'
+services:
+  auth-services:
+    container_name: authservice-container
+    build: 
+      context: authService
+      dockerfile: Dockerfile
+    ports:
+      - 5000:5000
+    environment:
+      - MONGO_URI=mongodb+srv://gibril:gibril@inventory-auth.7swikuf.mongodb.net/
+      - PORT=5000
+      - JWT_SECRET=UUURUDHHFGFFG6466bfhvwcft62q354
+
+
+  product-services:
+    container_name: productservice-container
+    build: 
+      context: productService
+      dockerfile: Dockerfile
+    ports:
+      - 5001:5001
+    environment:
+      - MONGO_URI=mongodb+srv://gibril:gibril@inventory-auth.7swikuf.mongodb.net/
+      - PORT=5001
+      - JWT_SECRET=UUURUDHHFGFFG6466bfhvwcft62q354
+
+
+  supply-services:
+    container_name: supplyservice-container
+    build: 
+      context: supplyService
+      dockerfile: Dockerfile
+    ports:
+      - 5002:5002
+    environment:
+      - MONGO_URI=mongodb+srv://gibril:gibril@inventory-auth.7swikuf.mongodb.net/
+      - PORT=5002
+      - JWT_SECRET=UUURUDHHFGFFG6466bfhvwcft62q354
+    depends_on:
+      - message-broker-services
+  
+  message-broker-services:
+    container_name: rabbitmq-container
+    image: rabbitmq:latest
+    ports:
+      - 5672:5672
